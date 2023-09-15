@@ -2,7 +2,6 @@ import { galleryItems } from './gallery-items.js';
 // Change code below this line
 const galleryEl = document.querySelector('.gallery');
 
-
 const createGalleryList = galleryItems => {
     return galleryItems
     .map(({ preview, original, description }) => {
